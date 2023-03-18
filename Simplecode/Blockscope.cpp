@@ -1,12 +1,11 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 
 int main() {
     int a = 10;
     {
-        int a = 20;  // ¿é×÷ÓÃÓò±äÁ¿
-        std::cout << "¿é±äÁ¿: " << a << std::endl;
+        int a = 20;  // å—ä½œç”¨åŸŸå˜é‡
+        std::cout << "å—å˜é‡: " << a << std::endl;
     }
-    std::cout << "Íâ²¿±äÁ¿: " << a << std::endl;
+    std::cout << "å¤–éƒ¨å˜é‡: " << a << std::endl;
     return 0;
 }
