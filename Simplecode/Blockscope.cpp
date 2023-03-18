@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main() //块作用域
+{
     int a = 10;
     {
         int a = 20;  // 块作用域变量
