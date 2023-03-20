@@ -1,9 +1,9 @@
 #include "iostream.h"
 void main()
 {
-    int a,b,c;
-    a=60;
-    b=13;
+    int a,b,c;    //定义变量
+    a=60;         //60的二进制:0011 1100
+    b=13;         //30的二进制:0000 1100
     c=0;
     
     c=a&b;
