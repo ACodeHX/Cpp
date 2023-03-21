@@ -1,12 +1,11 @@
-// Note:Your choice is C++ IDE
-#include <iostream>//Ç¶Ì×forÑ­»·Ñ°ÕÒÖÊÊı
+#include <iostream>//åµŒå¥—forå¾ªç¯å¯»æ‰¾è´¨æ•°
 using namespace std;
  
 int main ()
 {
     int i,j,n;
-    cout<<"Ñ°ÕÒnÄÚµÄÖÊÊı"<<endl;
-    cout<<"ÊäÈën:";
+    cout<<"å¯»æ‰¾nå†…çš„è´¨æ•°"<<endl;
+    cout<<"è¾“å…¥n:";
     cin>>n;
     for(i=1; i<=n; i++) 
     {
@@ -14,11 +13,11 @@ int main ()
          {
             if(!(i%j)) 
             {
-                break; // Èç¹ûÕÒµ½£¬Ôò²»ÊÇÖÊÊı
+                break; // å¦‚æœæ‰¾åˆ°ï¼Œåˆ™ä¸æ˜¯è´¨æ•°
             }
         }
         if(j > (i/j)) {
-            cout << i <<"ÊÇÖÊÊı"<<endl;
+            cout << i <<"æ˜¯è´¨æ•°"<<endl;
         }
     }
     return 0;
