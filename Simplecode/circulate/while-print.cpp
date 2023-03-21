@@ -1,5 +1,4 @@
-// Note:Your choice is C++ IDE
-#include <iostream>//while´òÓ¡1~9µÄÊı
+#include <iostream>//whileæ‰“å°1~9çš„æ•°å­—
 using namespace std;
 int main()
 {
