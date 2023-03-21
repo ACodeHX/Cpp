@@ -13,7 +13,7 @@ int main()
     	a++;
     	s+=a;
     	
-    }while(a<n);    //while要;
+    }while(a<n);    //while要用;
     cout<<s<<endl;
     return 0;
 }
