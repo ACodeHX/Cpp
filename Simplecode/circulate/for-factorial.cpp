@@ -1,10 +1,9 @@
-// Note:Your choice is C++ IDE
-#include <iostream>//forÇó½×³Ë
+#include <iostream>//foræ±‚é˜¶ä¹˜
 using namespace std;
 int main()
 {
     int i,n=1,q;
-    cout<<"ÊäÈëÒ»¸öÊý:q"<<endl;
+    cout<<"è¾“å…¥ä¸€ä¸ªæ•°:q"<<endl;
     cin>>q;
     for(i=1;i<=q;i++)
     {
