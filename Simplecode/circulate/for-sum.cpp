@@ -1,11 +1,10 @@
-// Note:Your choice is C++ IDE
-#include <iostream>//forÇóºÍ
+#include <iostream>//foræ±‚å’Œ
 using namespace std;
 int main()
 {
     int a=0,s=0,n;
     
-    cout<<"Çó1µ½nµÄºÍ"<<endl<<"ÊäÈën:";
+    cout<<"æ±‚1åˆ°nçš„å’Œ"<<endl<<"è¾“å…¥n:";
     
     
     cin>>n;
