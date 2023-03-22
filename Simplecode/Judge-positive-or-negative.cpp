@@ -1,20 +1,19 @@
-// Note:Your choice is C++ IDE
-#include <iostream>//do-whileÇó½×³Ë
+#include <iostream>//åˆ¤æ–­æ­£è´Ÿ
 using namespace std;
 void main()
 {
    int i;
-   cout<<"ÅÐ¶ÏÕý¸º"<<endl<<"ÊäÈëÒ»¸öÊý:";
+   cout<<"åˆ¤æ–­æ­£è´Ÿ"<<endl<<"è¾“å…¥ä¸€ä¸ªæ•°:";
    cin>>i;
    if(i>0)
    {
-   	   cout<<i<<"ÊÇÕýÊý";
+   	   cout<<i<<"æ˜¯æ­£æ•°";
    }else if(i<0)
    {
-   	   cout<<i<<"ÊÇ¸ºÊý";
+   	   cout<<i<<"æ˜¯è´Ÿæ•°";
    }else
    {
-   	   cout<<i<<"ÊÇ0";
+   	   cout<<i<<"æ˜¯0";
    }
     
 }
