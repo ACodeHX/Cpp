@@ -1,4 +1,4 @@
-#include <iostream>//do-while求阶乘
+#include <iostream>//判断正负
 using namespace std;
 void main()
 {
