@@ -1,5 +1,4 @@
-// Note:Your choice is C++ IDE
-#include <iostream>//´óÐ¡Ð´×ª»»
+#include <iostream>//å¤§å°å†™è½¬æ¢
 using namespace std;
 int main()
 {
@@ -7,18 +6,18 @@ int main()
     cin>>i;
     if(i<97&&i>=65)
     {
-    	cout<<char(i)<<"µÄÐ¡Ð´";
+    	cout<<char(i)<<"çš„å°å†™";
         i+=32;
         cout<<char(i);
     }
     else if(i<123&&i>=97)
     {
-    	cout<<char(i)<<"µÄ´óÐ´";
+    	cout<<char(i)<<"çš„å¤§å†™";
         i-=32;
         cout<<char(i);
     }else
     {
-    	cout<<"ÇëÊäÈë65~122µÄÊý";
+    	cout<<"è¯·è¾“å…¥65~122çš„æ•°";
     }
     
     return 0;
