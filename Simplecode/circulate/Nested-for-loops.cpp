@@ -1,4 +1,5 @@
-#include <iostream>//嵌套for循环寻找质数
+#include <iostream>
+//嵌套for循环寻找质数
 using namespace std;
  
 int main ()
