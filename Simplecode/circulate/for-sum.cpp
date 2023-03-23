@@ -1,4 +1,5 @@
-#include <iostream>//for求和
+#include <iostream>
+//for求和
 using namespace std;
 int main()
 {
