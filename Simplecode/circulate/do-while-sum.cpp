@@ -1,4 +1,5 @@
-#include <iostream>//do-while求和
+#include <iostream>
+//do-while求和
 using namespace std;
 int main()
 {
