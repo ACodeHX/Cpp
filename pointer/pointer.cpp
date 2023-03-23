@@ -1,20 +1,19 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
-int main()    //c++Ö¸Õë
+int main()    //c++æŒ‡é’ˆ
 {
     int null = 10;
     int *i;
     
-    i=&null;    //ÔÚÖ¸Õë±äÁ¿ÖĞ´æ´¢ var µÄµØÖ·
+    i=&null;    //åœ¨æŒ‡é’ˆå˜é‡ä¸­å­˜å‚¨ var çš„åœ°å€
     
-    cout<<null<<endl;    //Êä³öÔÚÖ¸Õë±äÁ¿ÖĞ´æ´¢µÄÖµ
+    cout<<null<<endl;    //è¾“å‡ºåœ¨æŒ‡é’ˆå˜é‡ä¸­å­˜å‚¨çš„å€¼
     
-    cout<<*i<<endl;    //·ÃÎÊÖ¸ÕëÖĞµØÖ·µÄÖµ
+    cout<<*i<<endl;    //è®¿é—®æŒ‡é’ˆä¸­åœ°å€çš„å€¼
     
-    cout<<&null<<endl;    //Êä³ö±äÁ¿µÄµØÖ·
+    cout<<&null<<endl;    //è¾“å‡ºå˜é‡çš„åœ°å€
     
-    cout<<&i<<endl;    //·ÃÎÊÖ¸ÕëÖĞµÄµØÖ·
+    cout<<&i<<endl;    //è®¿é—®æŒ‡é’ˆä¸­çš„åœ°å€
     
     return 0;
 }
