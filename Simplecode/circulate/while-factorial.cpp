@@ -1,4 +1,5 @@
-#include <iostream>//for求阶乘
+#include <iostream>
+//for求阶乘
 using namespace std;
 int main()
 {
