@@ -1,4 +1,5 @@
-#include <iostream>//while打印1~9的数字
+#include <iostream>
+//while打印1~9的数字
 using namespace std;
 int main()
 {
