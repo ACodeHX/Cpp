@@ -1,17 +1,16 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
-double getavg(int *arr,int size);  //º¯ÊýÉùÃ÷
+double getavg(int *arr,int size);  //å‡½æ•°å£°æ˜Ž
 
 
 
 int main()
 {
-    int balance[4]={10,88,6,44};   //Êý×é¶¨Òå
+    int balance[4]={10,88,6,44};   //æ•°ç»„å®šä¹‰
     //cout<<balance;
     double avg;
     avg=getavg(balance,4);
-    cout<<"Æ½¾ùÊý = "<<avg<<endl;
+    cout<<"å¹³å‡æ•° = "<<avg<<endl;
     return 0;
     
 }
