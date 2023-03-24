@@ -1,14 +1,13 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
-using namespace std;    //Á½ÖÖ³£Á¿¶¨Òå·½·¨
-#define day 7    //#define ¶¨Òå
+using namespace std;    //ä¸¤ç§å¸¸é‡å®šä¹‰æ–¹æ³•
+#define day 7    //#define å®šä¹‰
 int main()    
 {
-	//day = 14;//Óï·¨´íÎó
+	//day = 14;//è¯­æ³•é”™è¯¯
     cout<<day<<endl;
     
     const month=12;
-    //month=24;    //ÔÚ¶¨Òå¾Í»á³ö´í
+    //month=24;    //åœ¨å®šä¹‰å°±ä¼šå‡ºé”™
     cout<<month;
     
     return 0;
