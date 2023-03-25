@@ -1,9 +1,8 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
  
 using namespace std;
  
-void main()    //int& r = i; ºÍ int r = i; ²»Í¬Ö®´¦Ó¦¸ÃÊÇÄÚ´æµÄ·ÖÅä°É£¬ºóÕß»áÔÙ¿ª±ÙÒ»¸öÄÚ´æ¿Õ¼ä
+void main()    //int& r = i; å’Œ int r = i; ä¸åŒä¹‹å¤„åº”è¯¥æ˜¯å†…å­˜çš„åˆ†é…å§ï¼Œåè€…ä¼šå†å¼€è¾Ÿä¸€ä¸ªå†…å­˜ç©ºé—´
 {
    int i;
    int& r = i;
@@ -14,7 +13,7 @@ void main()    //int& r = i; ºÍ int r = i; ²»Í¬Ö®´¦Ó¦¸ÃÊÇÄÚ´æµÄ·ÖÅä°É£¬ºóÕß»áÔÙ¿
    cout << "Addr of r: " << &r << endl;
    
    int x;
-   int y = x;  //ÎŞ³õÊ¼»¯ error
+   int y = x;  //æ— åˆå§‹åŒ– error
    x = 6;
    cout << "Value of x : " << x << endl;
    cout << "Value of y : " << y  << endl;
