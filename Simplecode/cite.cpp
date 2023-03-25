@@ -1,7 +1,6 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
-void main()    //C++µÄÒıÓÃ
+void main()    //C++çš„å¼•ç”¨
 {
     int i;
     double d;
