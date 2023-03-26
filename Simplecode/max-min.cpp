@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-void main()
+void main()    //比较大小
 {
-	int a,b,c,max,min;
+	int a,b,c,max,min;    //定义max，min
 	//cin>>a>>b>>c>>endl;
 	cout<<"输入三个数"<<endl;
 	
