@@ -1,11 +1,10 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 void main()
 {
 	int a,b,c,max,min;
 	//cin>>a>>b>>c>>endl;
-	cout<<"ÊäÈëÈý¸öÊý"<<endl;
+	cout<<"è¾“å…¥ä¸‰ä¸ªæ•°"<<endl;
 	
 	cin>>a;
 	cin>>b;
@@ -18,7 +17,7 @@ void main()
 	max=c;
 	
 	
-	cout<<"×î´óÖµmax = "<<max<<endl;
+	cout<<"æœ€å¤§å€¼max = "<<max<<endl;
 	
 	if(a>b)
 	min=b;
@@ -26,7 +25,7 @@ void main()
 	if(min>c)
 	min=c;
 	
-	cout<<"×îÐ¡Öµmin = "<<min<<endl;
+	cout<<"æœ€å°å€¼min = "<<min<<endl;
 	cout<<a <<b <<c ;
     
    
