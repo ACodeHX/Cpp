@@ -1,18 +1,17 @@
-/* Note:Your choice is C IDE */
 #include <iostream>
 #include <string>
 using namespace std;
     
 int main () {
-    // ´´½¨±äÁ¿
-    int myNum = 5;               // ÕûĞÍ
-    float myFloatNum = 5.99;     // µ¥¾«¶È¸¡µãĞÍ
-    double myDoubleNum = 9.98;   // Ë«¾«¶È¸¡µãĞÍ
-    char myLetter = 'D';         // ×Ö·ûĞÍ
-    bool myBoolean = true;       // ²¼¶ûĞÍ
-    string myString = "Runoob";   // ×Ö·û´®
+    // åˆ›å»ºå˜é‡
+    int myNum = 5;               // æ•´å‹
+    float myFloatNum = 5.99;     // å•ç²¾åº¦æµ®ç‚¹å‹
+    double myDoubleNum = 9.98;   // åŒç²¾åº¦æµ®ç‚¹å‹
+    char myLetter = 'D';         // å­—ç¬¦å‹
+    bool myBoolean = true;       // å¸ƒå°”å‹
+    string myString = "Runoob";   // å­—ç¬¦ä¸²
     
-    // Êä³ö±äÁ¿
+    // è¾“å‡ºå˜é‡
     cout << "int: " << myNum << "\n";
     cout << "float: " << myFloatNum << "\n";
     cout << "double: " << myDoubleNum << "\n";
