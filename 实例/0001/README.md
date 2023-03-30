@@ -12,7 +12,7 @@ null
 #include <string>
 using namespace std;
     
-int main ()
+void main ()
 {
                                  // 创建变量
     int myNum = 5;               // 整型
