@@ -1,4 +1,10 @@
+### 问题
 不同类型变量的创建方法：
+
+### 分析
+
+### code
+
 ```cpp
 #include <iostream>
 #include <string>
@@ -23,6 +29,7 @@ int main () {
     
     return 0;
 }
+```
 
 
 
