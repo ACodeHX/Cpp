@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <ctime>
  
@@ -6,16 +5,16 @@ using namespace std;
  
 void main( )
 {
-   // »ùÓÚµ±Ç°ÏµÍ³µÄµ±Ç°ÈÕÆÚ/Ê±¼ä
+   // åŸºäºå½“å‰ç³»ç»Ÿçš„å½“å‰æ—¥æœŸ/æ—¶é—´
    time_t now = time(0);
    
-   // °Ñ now ×ª»»Îª×Ö·û´®ĞÎÊ½
+   // æŠŠ now è½¬æ¢ä¸ºå­—ç¬¦ä¸²å½¢å¼
    char* dt = ctime(&now);
  
-   cout << "±¾µØÈÕÆÚºÍÊ±¼ä£º" << dt << endl;
+   cout << "æœ¬åœ°æ—¥æœŸå’Œæ—¶é—´ï¼š" << dt << endl;
  
-   // °Ñ now ×ª»»Îª tm ½á¹¹
+   // æŠŠ now è½¬æ¢ä¸º tm ç»“æ„
    tm *gmtm = gmtime(&now);
    dt = asctime(gmtm);
-   cout << "UTC ÈÕÆÚºÍÊ±¼ä£º"<< dt << endl;
+   cout << "UTC æ—¥æœŸå’Œæ—¶é—´ï¼š"<< dt << endl;
 }
