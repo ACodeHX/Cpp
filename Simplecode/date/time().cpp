@@ -1,12 +1,11 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <stdio.h>
 #include <time.h>
 using namespace std;
-void main()    //C ¿âº¯Êı time_t time(time_t *seconds) ·µ»Ø×Ô¼ÍÔª Epoch£¨1970-01-01 00:00:00 UTC£©Æğ¾­¹ıµÄÊ±¼ä£¬ÒÔÃëÎªµ¥Î»¡£
+void main()    //C åº“å‡½æ•° time_t time(time_t *seconds) è¿”å›è‡ªçºªå…ƒ Epochï¼ˆ1970-01-01 00:00:00 UTCï¼‰èµ·ç»è¿‡çš„æ—¶é—´ï¼Œä»¥ç§’ä¸ºå•ä½ã€‚
 {
     time_t seconds;
     seconds=time(NULL);
-    printf("Ê±¼ä:%ld\n",seconds/3600);
+    printf("æ—¶é—´:%ld\n",seconds/3600);
     //return(0);
 }
