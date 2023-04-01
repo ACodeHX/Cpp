@@ -1,7 +1,7 @@
 # Cpp
 Record learning in C++(记录C++的学习)
 
-# [关注我，不迷路!]
+# 社交主页
   [GitHub](https://github.com/ACodeHX)
   
   [CSDN](https://blog.csdn.net/White_shy?spm=1000.2115.3001.5343)
