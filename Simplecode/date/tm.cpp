@@ -1,18 +1,17 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <ctime>
 using namespace std;
-void main()    //Ê¹ÓÃtm½á¹¹¸ñÊ½»¯Ê±¼ä
+void main()    //ä½¿ç”¨tmç»“æ„æ ¼å¼åŒ–æ—¶é—´
 {
 	 time_t now=time(0);
 	 cout<<now<<endl;
 	 
 	 tm *ltm=localtime(&now);
 	 
-	 cout<<1900+ltm->tm_year<<"Äê";    //tm_year»ñµÃÄê
-	 cout<<1+ltm->tm_mon<<"ÔÂ";    //tm_mon»ñµÃÔÂ
-	 cout<<ltm->tm_mday<<"ÈÕ";    //tm_mday»ñµÃÈÕ
-	 cout<<"\t"<<ltm->tm_hour<<":";    //tm_hour»ñµÃÊ±
-	 cout<<ltm->tm_min<<":";    //tm_min»ñµÃ·Ö
-	 cout<<ltm->tm_sec;    //tm_sec»ñµÃÃë 
+	 cout<<1900+ltm->tm_year<<"å¹´";    //tm_yearè·å¾—å¹´
+	 cout<<1+ltm->tm_mon<<"æœˆ";    //tm_monè·å¾—æœˆ
+	 cout<<ltm->tm_mday<<"æ—¥";    //tm_mdayè·å¾—æ—¥
+	 cout<<"\t"<<ltm->tm_hour<<":";    //tm_hourè·å¾—æ—¶
+	 cout<<ltm->tm_min<<":";    //tm_minè·å¾—åˆ†
+	 cout<<ltm->tm_sec;    //tm_secè·å¾—ç§’ 
 }
