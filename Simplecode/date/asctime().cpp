@@ -1,9 +1,8 @@
-// Note:Your choice is C++ IDE
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
 
-int main()    //asctime()ÓÃ·¨
+int main()    //asctime()
 {
    struct tm t;
 
