@@ -1,24 +1,23 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <time.h>
 #include <stdio.h>
 using namespace std;
-void main()    //clock()º¯ÊıµÄ×÷ÓÃ
+void main()    //clock()å‡½æ•°çš„ä½œç”¨
 {
-    clock_t start_t,end_t;  //¶¨Òå±äÁ¿
+    clock_t start_t,end_t;  //å®šä¹‰å˜é‡
     double tatol_t;
     int i;
     
     start_t=clock_t();
-    printf("³ÌĞòÆô¶¯:start_t=%ld\n",start_t);
-    printf("¿ªÊ¼´óÑ­»·:%ld\n",start_t);
+    printf("ç¨‹åºå¯åŠ¨:start_t=%ld\n",start_t);
+    printf("å¼€å§‹å¤§å¾ªç¯:%ld\n",start_t);
     for(i=0;i<10000000;i++)
     {
     }
     end_t=clock();
-    printf("½áÊø´óÑ­»·:%ld\n",end_t);
+    printf("ç»“æŸå¤§å¾ªç¯:%ld\n",end_t);
     
-    tatol_t=(double)(end_t-start_t)/CLOCKS_PER_SEC;    //CLOCKS_PER_SECµÈÓÚ1000000£¬¸Ãº¯Êı´óÔ¼Ã¿ 72 ·ÖÖÓ»á·µ»ØÏàÍ¬µÄÖµ¡£
-    printf("CPUÕ¼ÓÃÊ±¼ä:%f\n",tatol_t);    //Êı¾İÀàĞÍ²»Òª´í
-    cout<<"½áÊø½ø³Ì"<<endl;
+    tatol_t=(double)(end_t-start_t)/CLOCKS_PER_SEC;    //CLOCKS_PER_SECç­‰äº1000000ï¼Œè¯¥å‡½æ•°å¤§çº¦æ¯ 72 åˆ†é’Ÿä¼šè¿”å›ç›¸åŒçš„å€¼ã€‚
+    printf("CPUå ç”¨æ—¶é—´:%f\n",tatol_t);    //æ•°æ®ç±»å‹ä¸è¦é”™
+    cout<<"ç»“æŸè¿›ç¨‹"<<endl;
 }
