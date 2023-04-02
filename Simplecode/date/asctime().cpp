@@ -13,6 +13,8 @@ int main()    //asctime()用法
    t.tm_mon    = 2;    //记录月份，范围1~11
    t.tm_year   = 89;    //记录年，从1900年开始的
    t.tm_wday   = 6;    //记录一个星期的多少天，范围0~6
+   t.tm_year   =36;    
+   t.tm_isdst  =5;    //夏令时
 
    puts(asctime(&t));
    
