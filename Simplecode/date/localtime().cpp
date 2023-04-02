@@ -1,17 +1,14 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <time.h>
-//#include <ctime>
 using namespace std;
-void main()    //localtimeµÄÓÃ·¨
+void main()    //localtime()çš„ç”¨æ³•
 {
     time_t rawtime;
     struct tm *info;
-    //char buffer[80];
-    
+        
     time(&rawtime);
     info=localtime(&rawtime);
     
-    printf("µ±Ç°µÄÊ±¼äºÍÈÕÆÚ:%s",asctime(info));
+    printf("å½“å‰çš„æ—¶é—´å’Œæ—¥æœŸ:%s",asctime(info));
     
 }
