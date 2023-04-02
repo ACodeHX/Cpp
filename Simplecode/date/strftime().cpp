@@ -4,7 +4,7 @@
 using namespace std;
 void main()    //strftime()函数的用法
 {
-	 time_t rawtime;
+     time_t rawtime;
      struct tm *info;
      char buffer[80];
      time(&rawtime);
