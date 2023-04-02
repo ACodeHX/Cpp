@@ -1,9 +1,8 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <time.h>
 #include <stdio.h>
 using namespace std;
-void main()    //strftime()º¯ÊıµÄÓÃ·¨
+void main()    //strftime()å‡½æ•°çš„ç”¨æ³•
 {
 	 time_t rawtime;
      struct tm *info;
@@ -12,6 +11,6 @@ void main()    //strftime()º¯ÊıµÄÓÃ·¨
      info=localtime(&rawtime);
      
      
-     strftime(buffer,80,"%Y-%m-%d %H:%M:%S",info);    //strftime()µÄËµÃ÷·û:%yÊÇÄê£¬%mÊÇÔÂ£¬%dÊÇÈÕ,%HÊÇĞ¡Ê±£¬%MÊÇ·Ö£¬%SÊÇÃë
-     printf("¸ñÊ½»¯Ê±¼äºÍÈÕÆÚ:|%s|",buffer);         
+     strftime(buffer,80,"%Y-%m-%d %H:%M:%S",info);    //strftime()çš„è¯´æ˜ç¬¦:%yæ˜¯å¹´ï¼Œ%mæ˜¯æœˆï¼Œ%dæ˜¯æ—¥,%Hæ˜¯å°æ—¶ï¼Œ%Mæ˜¯åˆ†ï¼Œ%Sæ˜¯ç§’
+     printf("æ ¼å¼åŒ–æ—¶é—´å’Œæ—¥æœŸ:|%s|",buffer);         
 }
