@@ -2,7 +2,7 @@
 #include <string.h>
 #include <time.h>
 
-int main()    //asctime()
+int main()    //asctime()用法
 {
    struct tm t;
 
