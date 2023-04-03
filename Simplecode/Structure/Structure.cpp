@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>    //设置头文件
 using namespace std;
-typedef struct student    //定义结构体
+typedef struct student    //定义结构体,typedef关键字可以定义非结构类型
    {
    	  int     ID;
    	  char    Name[20];
