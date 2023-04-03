@@ -15,7 +15,7 @@ void main()
      cout<<"一共多少人:";
      scanf("%d",&n);
      for(i=0;i<n;i++)
-     {
+     {    //输入数据
      	
      cout<<"输入第"<<i+1<<"个学生学号:";
      cin>>stud[i].ID;
@@ -28,7 +28,7 @@ void main()
      
      }
      cout<<"ID\tname\tsco\t"<<endl;    //设计表头
-     for(i=0;i<n;i++)
+     for(i=0;i<n;i++)    //输出数据
      {
      cout<<stud[i].ID<<"\t";
      cout<<stud[i].Name<<"\t";
