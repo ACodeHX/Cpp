@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -13,16 +12,16 @@ void main()
 {
      struct student stud[3];
      int i,n;
-     cout<<"Ò»¹²¶àÉÙÈË:";
+     cout<<"ä¸€å…±å¤šå°‘äºº:";
      scanf("%d",&n);
      for(i=0;i<n;i++)
      {
      	
-     cout<<"ÊäÈëµÚ"<<i+1<<"¸öÑ§ÉúÑ§ºÅ:";
+     cout<<"è¾“å…¥ç¬¬"<<i+1<<"ä¸ªå­¦ç”Ÿå­¦å·:";
      cin>>stud[i].ID;
-     cout<<"ÊäÈëµÚ"<<i+1<<"¸öÑ§ÉúÐÕÃû:";
+     cout<<"è¾“å…¥ç¬¬"<<i+1<<"ä¸ªå­¦ç”Ÿå§“å:";
      cin>>stud[i].Name;
-     cout<<"ÊäÈëµÚ"<<i+1<<"¸öÑ§Éú³É¼¨:";
+     cout<<"è¾“å…¥ç¬¬"<<i+1<<"ä¸ªå­¦ç”Ÿæˆç»©:";
      cin>>stud[i].sco;
      cout<<endl;
      
