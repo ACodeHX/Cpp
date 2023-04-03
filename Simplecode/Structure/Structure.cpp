@@ -1,7 +1,7 @@
 #include <iostream>
-#include <cstring>
+#include <cstring>    //设置头文件
 using namespace std;
-typedef struct student
+typedef struct student    //定义结构体
    {
    	  int     ID;
    	  char    Name[20];
@@ -27,7 +27,7 @@ void main()
      
      
      }
-     cout<<"ID\tname\tsco\t"<<endl;
+     cout<<"ID\tname\tsco\t"<<endl;    //设计表头
      for(i=0;i<n;i++)
      {
      cout<<stud[i].ID<<"\t";
