@@ -4,7 +4,7 @@ class Box    //类定义是以关键字class开头,后跟类的名称.
 {
 	public:    //public为公有类,也可以设置私有类private,或者保护类protected.
 	
-	double length;
+	double lenght;
 	double breadth;
 	double heigth;
 	
@@ -14,12 +14,12 @@ class Box    //类定义是以关键字class开头,后跟类的名称.
 double Box::get(void)
 {
 	
-	return length*breadth*heigth;
+	return lenght*breadth*heigth;
 	
 }
 void Box::set(double len,double bre,double hei)
 {
-	length=len;
+	lenght=len;
 	breadth=bre;
 	heigth=hei;
 		
@@ -30,18 +30,18 @@ void main()
       Box Box2;
       double volume = 0.0;     // 用于存储体积
       cout<<"输入一个长方体Box1的长、宽、高:"<<endl;
-      /*Box1.length=2;
+      /*Box1.lenght=2;
       Box1.breadth=2;
       Box1.heigth=2;*/
       
       
-      cin>>Box1.length>>Box1.breadth>>Box1.heigth;
-      /*cin>>Box1.length;
+      cin>>Box1.lenght>>Box1.breadth>>Box1.heigth;
+      /*cin>>Box1.lenght;
       cin>>Box1.breadth;
       cin>>Box1.heigth;*/
       
       cout<<"Box1体积 = ";
-      volume=Box1.length*Box1.breadth*Box1.heigth;
+      volume=Box1.lenght*Box1.breadth*Box1.heigth;
       
       
       
