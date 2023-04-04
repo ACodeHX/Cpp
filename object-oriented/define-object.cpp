@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 class Box
@@ -27,10 +26,10 @@ void Box::set(double len,double bre,double hei)
 }
 void main()
 {
-	  Box Box1;        // ÉùÃ÷ Box1£¬ÀàĞÍÎª Box
+	  Box Box1;        // å£°æ˜ Box1ï¼Œç±»å‹ä¸º Box
       Box Box2;
-      double volume = 0.0;     // ÓÃÓÚ´æ´¢Ìå»ı
-      cout<<"ÊäÈëÒ»¸ö³¤·½ÌåBox1µÄ³¤¡¢¿í¡¢¸ß:"<<endl;
+      double volume = 0.0;     // ç”¨äºå­˜å‚¨ä½“ç§¯
+      cout<<"è¾“å…¥ä¸€ä¸ªé•¿æ–¹ä½“Box1çš„é•¿ã€å®½ã€é«˜:"<<endl;
       /*Box1.length=2;
       Box1.breadth=2;
       Box1.heigth=2;*/
@@ -41,7 +40,7 @@ void main()
       cin>>Box1.breadth;
       cin>>Box1.heigth;*/
       
-      cout<<"Box1Ìå»ı = ";
+      cout<<"Box1ä½“ç§¯ = ";
       volume=Box1.length*Box1.breadth*Box1.heigth;
       
       
@@ -50,7 +49,7 @@ void main()
       
       Box2.set(2,2,2);
       volume=Box2.get();
-      cout<<"ÓÃset()ºÍget()µÄ³¤·½ÌåBox2µÄÌå»ı:"<<volume;
+      cout<<"ç”¨set()å’Œget()çš„é•¿æ–¹ä½“Box2çš„ä½“ç§¯:"<<volume;
  
    
 	
