@@ -10,11 +10,11 @@ class Box    //类定义是以关键字class开头,后跟类的名称.
 	
 	double get(void);
 	void set(double len,double bre,double hei);    //设计get()函数、set()函数.
-};
+};    //记得;
 double Box::get(void)
 {
 	
-	return lenght*breadth*heigth;
+	return lenght*breadth*heigth;    //返回
 	
 }
 void Box::set(double len,double bre,double hei)
