@@ -2,7 +2,7 @@
 using namespace std;
 class Box    //类定义是以关键字class开头,后跟类的名称.
 {
-	public:
+	public:    //public为公有类,也可以设置私有类private,或者保护类protected.
 	
 	double length;
 	double breadth;
