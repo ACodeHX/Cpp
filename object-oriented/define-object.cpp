@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class Box
+class Box    //类定义是以关键字class开头,后跟类的名称.
 {
 	public:
 	
