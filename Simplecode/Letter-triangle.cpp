@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std; 
-int main()    //字母三角形
+int main()    //打印字母三角形
 {
     char input, alphabet = 'A';
  
-    cout << "输入在最后一位的大写字母: ";
+    cout << "输入在最后一位的大写字母:";
     cin >> input;
  
     for(int i = 1; i <= (input-'A'+1); ++i)
