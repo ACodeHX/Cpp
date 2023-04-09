@@ -1,10 +1,12 @@
+// Note:Your choice is C++ IDE
 #include <iostream>
-using namespace std; 
-int main()    //æ‰“å°å­—æ¯ä¸‰è§’å½¢
+using namespace std;
+ 
+int main()
 {
     char input, alphabet = 'A';
  
-    cout << "è¾“å…¥åœ¨æœ€åä¸€ä½çš„å¤§å†™å­—æ¯:";
+    cout << "ÊäÈë×îºóÒ»¸ö´óĞ´×ÖÄ¸: ";
     cin >> input;
  
     for(int i = 1; i <= (input-'A'+1); ++i)
