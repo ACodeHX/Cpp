@@ -4,7 +4,7 @@ int main()
 {
     char input, alphabet = 'A';
  
-    cout << "ÊäÈë×îºóÒ»¸ö´óÐ´×ÖÄ¸: ";
+    cout << "输入的行数:";
     cin >> input;
  
     for(int i = 1; i <= (input-'A'+1); ++i)
