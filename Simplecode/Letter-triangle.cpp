@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std; 
-int main()
+int main()    //打印倒三角
 {
     char input, alphabet = 'A';
  
