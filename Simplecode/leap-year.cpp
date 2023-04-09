@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void main()
+void main()    //判断闰年
 {
     int year;
     cout<<"Enter the year:"<<endl;
