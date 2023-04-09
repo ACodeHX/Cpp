@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std; 
-int main()
+int main()    //打印正三角形
 {
     char input, alphabet = 'A';
  
