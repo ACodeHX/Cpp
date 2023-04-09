@@ -1,12 +1,10 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
-using namespace std;
- 
+using namespace std; 
 int main()
 {
     char input, alphabet = 'A';
  
-    cout << "输入最后一个大写字母: ";
+    cout << "杈撳叆琛屾暟:";
     cin >> input;
  
     for(int i = 1; i <= (input-'A'+1); ++i)
