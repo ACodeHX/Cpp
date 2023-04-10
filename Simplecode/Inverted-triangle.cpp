@@ -1,11 +1,10 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 int main()
 {
     int rows;
  
-    cout << "ÊäÈëÐÐÊý: ";
+    cout << "è¾“å…¥è¡Œæ•°:";
     cin >> rows;
  
     for(int i = rows; i >= 1; --i)
