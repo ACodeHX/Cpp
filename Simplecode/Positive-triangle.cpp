@@ -13,7 +13,6 @@ int main()    //打印正三角
         {
             cout <<"  ";
         }
- 
         while(k != 2*i-1)
         {
             cout << "* ";
