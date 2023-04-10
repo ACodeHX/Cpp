@@ -1,11 +1,10 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 int main()
 {
     int space, rows;
  
-    cout <<"ÊäÈëÐÐÊý: ";
+    cout <<"ÃŠÃ¤ÃˆÃ«ÃÃÃŠÃ½: ";
     cin >> rows;
  
     for(int i = 1, k = 0; i <= rows; ++i, k = 0)
