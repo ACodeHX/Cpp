@@ -1,10 +1,11 @@
 #include <iostream>
-using namespace std; 
-int main()    //打印正三角形
+using namespace std;
+ 
+int main()
 {
     char input, alphabet = 'A';
  
-    cout << "输入行数:";
+    cout << "输入最后一个大写字母: ";
     cin >> input;
  
     for(int i = 1; i <= (input-'A'+1); ++i)
