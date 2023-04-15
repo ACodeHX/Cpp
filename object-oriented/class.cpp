@@ -31,7 +31,7 @@ class Rectangle: public Shape    //派生shape类
 int main(void)
 {
 	int i,n;
-	cout<<"输入"
+	cout<<"输入长和宽"<<endl;
 	cin>>i;
 	cin>>n;
    Rectangle Rect;
