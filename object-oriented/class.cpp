@@ -31,7 +31,9 @@ class Rectangle: public Shape    //派生shape类
 int main(void)
 {
 	int i,n;
-	
+	cout<<"输入"
+	cin>>i;
+	cin>>n;
    Rectangle Rect;
  
    Rect.setWidth(i);
