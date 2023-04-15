@@ -1,11 +1,10 @@
 #include <iostream>
- 
-using namespace std;
+using namespace std;    //一个类可以派生出多个类
  
 // 基类
 class Shape 
 {
-   public:
+   public:    //共有类
       void setWidth(int w)
       {
          width = w;
@@ -14,13 +13,13 @@ class Shape
       {
          height = h;
       }
-   protected:
+   protected:    //保护类
       int width;
       int height;
 };
  
-// 派生类
-class Rectangle: public Shape
+// 派生类，定义一个派生类，我们使用一个类派生列表来指定基类
+class Rectangle: public Shape    //派生shape类
 {
    public:
       int getArea()
@@ -32,7 +31,7 @@ class Rectangle: public Shape
 int main(void)
 {
 	int i,n;
-	scanf("%d %d",&i,&n);
+	
    Rectangle Rect;
  
    Rect.setWidth(i);
