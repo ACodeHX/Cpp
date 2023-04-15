@@ -1,9 +1,8 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
  
 using namespace std;
  
-// »ùÀà
+// åŸºç±»
 class Shape 
 {
    public:
@@ -20,7 +19,7 @@ class Shape
       int height;
 };
  
-// ÅÉÉúÀà
+// æ´¾ç”Ÿç±»
 class Rectangle: public Shape
 {
    public:
@@ -39,7 +38,7 @@ int main(void)
    Rect.setWidth(i);
    Rect.setHeight(n);
  
-   // Êä³ö¶ÔÏóµÄÃæ»ı
+   // è¾“å‡ºå¯¹è±¡çš„é¢ç§¯
    cout << "Total area: " << Rect.getArea() << endl;
  
    return 0;
