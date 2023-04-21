@@ -3,7 +3,7 @@
 using namespace std;
 void main()
 {
-    int a = 60,b = 15;    //60µÄ¶þ½øÖÆÎª111100; 15µÄ¶þ½øÖÆÎª001111;
+    int a = 60,b = 15;    //60çš„äºŒè¿›åˆ¶ä¸º111100; 15çš„äºŒè¿›åˆ¶ä¸º001111;
         cout<<(a+b)<<endl;
         cout<<(a-b)<<endl;
         cout<<(a*b)<<endl;
