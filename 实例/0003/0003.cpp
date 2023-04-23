@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -10,7 +9,7 @@ void main()
 
     p = pow(1 + r, n);
 
-    cout << "¹úÃñÉú²ú×ÜÖµÓëÏÖÔÚÏà±ÈÔö³¤£º" << (p - 1) * 100 << "%" << endl;
+    cout << "å›½æ°‘ç”Ÿäº§æ€»å€¼ä¸ŽçŽ°åœ¨ç›¸æ¯”å¢žé•¿ï¼š" << (p - 1) * 100 << "%" << endl;
 
    
 }
