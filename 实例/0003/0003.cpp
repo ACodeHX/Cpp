@@ -3,8 +3,8 @@
 using namespace std;
 void main()
 {
-    const int n = 10; 
-    const double r = 0.09;
+    const int n = 10;    // 年份数
+    const double r = 0.09;    // 年增长率
     double p;
 
     p = pow(1 + r, n);
