@@ -14,7 +14,7 @@ void main()
 	int end = sizeof(arr)/sizeof(arr[0])-1;    //数组长度
 	int temp = 0;
 
-	while(start<end)
+	while(start<end)    //当末地址小于初始地址时结束
 	{
 		temp = arr[start];
 		arr[start] = arr[end];
