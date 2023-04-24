@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void main()
+void main()    //数组元素逆置
 {
 	int arr[5] = {1,2,3,4,5};
 	int i = 0;
