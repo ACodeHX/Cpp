@@ -1,18 +1,17 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 void main()
 {
 	int arr[5] = {1,2,3,4,5};
 	int i = 0;
-	cout<<"ÄæÖÃÇ°:";
+	cout<<"é€†åºå‰:";
     for(i=0;i<5;i++)
 	{
 		cout<<arr[i];
 	}
 	cout<<endl;
 	int start = 0;
-	int end = sizeof(arr)/sizeof(arr[0])-1;
+	int end = sizeof(arr)/sizeof(arr[0])-1;    //æ•°ç»„é•¿åº¦
 	int temp = 0;
 
 	while(start<end)
@@ -23,7 +22,7 @@ void main()
 		start++;
 		end--;
 	}
-	cout<<"ÄæÖÃºó:";
+	cout<<"é€†åºåŽ:";
 	for(i=0;i<5;i++)
 	{
 		cout<<arr[i];
