@@ -1,11 +1,10 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 int main()
 {
     int arr[5] = {1,6,3,8,5};
     int i = 0,j = 0;
-    cout << "Ã°ÅÝÅÅÐòÇ°:"<<endl;
+    cout << "ÃƒÂ°Ã…ÃÃ…Ã…ÃÃ²Ã‡Â°:"<<endl;
     for(i=0;i<5;i++)
     {
         cout << arr[i];
@@ -28,7 +27,7 @@ int main()
         }
     }
 
-    cout<<"ÅÅÐòºó:"<<endl;
+    cout<<"Ã…Ã…ÃÃ²ÂºÃ³:"<<endl;
     for(i=0;i<5;i++)
     {
         cout<<arr[i];
