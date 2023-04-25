@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string>    //导入string类
 using namespace std;
 void main()    //统计
 {
