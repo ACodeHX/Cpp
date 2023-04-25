@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void main()
+void main()    //数组大小和地址
 {
     int arr[2][3] =
     {
