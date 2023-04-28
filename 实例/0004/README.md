@@ -7,7 +7,7 @@
 null
 
 ### code
-```
+```cpp
 #include <iostream>
 using namespace std;
 void sawp(int num1,int num2)    //练习调用
