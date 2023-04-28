@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
-void sawp(int num1,int num2)
+void sawp(int num1,int num2)    //练习调用
 {
     int temp;
     cout<<num1<<endl;
     cout<<num2<<endl;
 
     temp = num1;
-    num1 = num2;
+    num1 = num2;    //交换
     num2 = temp;
 
     cout<<num1<<endl;
