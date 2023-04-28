@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void sawp(int num1,int num2)
+void sawp(int num1,int num2)    //利用调用算四则运算
 {
     int num3;
     num3 = num1 +num2;
