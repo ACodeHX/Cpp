@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 void sawp(int num1,int num2)
