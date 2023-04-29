@@ -24,10 +24,10 @@ int type4(int a)
 }
 void main()
 {
-    type1();
-    int num = type2();
+    type1();    // 无参无返
+    int num = type2();    // 无参有返
     cout<<"type2 = "<<num<<endl;
-    type3(100);
-    int num1 = type4(1000);
+    type3(100);    // 有参无返
+    int num1 = type4(1000);    //有参有返
     cout<<"type4 = "<<num1<<endl;
 }
