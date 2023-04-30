@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//声明
+//函数的声明
 int type(int a,int b)
 {
     return a<b?a:b;
