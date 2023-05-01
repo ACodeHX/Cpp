@@ -1,5 +1,5 @@
-#include "assertion.h"
-int add(int a, int, b)
+#include "assertion.h"    //分文件编写
+int add(int a, int, b)    //源文件写定义
 {
 	int temp;
 	temp = a;
