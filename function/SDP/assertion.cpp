@@ -1,4 +1,3 @@
-/* Note:Your choice is C IDE */
 #include "assertion.h"
 int add(int a, int, b)
 {
