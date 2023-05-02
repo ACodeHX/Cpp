@@ -1,12 +1,13 @@
 #include "assertion.h"    //分文件编写
-int add(int a, int, b)    //源文件写定义
+int add(int a, int b)    //源文件写定义
 {
 	int temp;
 	temp = a;
 	a = b;
 	b = temp;
-	cout << a << endl;
-	cout << b << endl;
+	cout <<"a = " << a << endl;
+	cout <<"b = " << b << endl;
+	return 0;
 }
 void main()
 {
