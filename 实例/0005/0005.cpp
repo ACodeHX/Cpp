@@ -4,7 +4,7 @@ using namespace std;
 void main()
 {
 	int x, y, z, t=0;
-	cout << "" << endl;
+	cout << "输入三个数" << endl;
 	cin >> x;
 	cin >> y;
 	cin >> z;
@@ -27,5 +27,5 @@ void main()
 		y = z;
 		z = t;
 	}
-	printf("%d %d %d", x, y, z);
+	printf("从小到大排序: %d %d %d", x, y, z);
 }
