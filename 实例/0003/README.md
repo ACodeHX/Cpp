@@ -7,7 +7,7 @@
 先利用pow()算出为与现在相比的倍数，然后计算GDP的增长占百分比
 
 ### code
-```c++
+```cpp
 #include <iostream>
 #include <cmath>
 using namespace std;
