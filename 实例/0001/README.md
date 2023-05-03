@@ -21,15 +21,15 @@ void main ()
     double myDoubleNum = 9.98;   // 双精度浮点型
     char myLetter = 'D';         // 字符型
     bool myBoolean = true;       // 布尔型
-    string myString = "Runoob";   // 字符串
+    string myString = "ACodeHX";   // 字符串
     
     // 输出变量
-    cout << "int: " << myNum << "\n";
-    cout << "float: " << myFloatNum << "\n";
-    cout << "double: " << myDoubleNum << "\n";
-    cout << "char: " << myLetter << "\n";
-    cout << "bool: " << myBoolean << "\n";
-    cout << "string: " << myString << "\n";
+    cout << "int: " << myNum << "\n";    //5
+    cout << "float: " << myFloatNum << "\n";    //5.99
+    cout << "double: " << myDoubleNum << "\n";    //9.98
+    cout << "char: " << myLetter << "\n";   //D 
+    cout << "bool: " << myBoolean << "\n";    //true
+    cout << "string: " << myString << "\n";    //ACodeHX
 }
 ```
 
