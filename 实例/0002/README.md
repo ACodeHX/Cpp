@@ -9,7 +9,7 @@ null
 
 ### code
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
 int main()    //猴子偷桃
