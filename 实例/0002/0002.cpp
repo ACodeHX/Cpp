@@ -1,10 +1,9 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
-int main()
+int main()    //çŒ´å­å·æ¡ƒ
 {
     int x, y, n;
     for (x=1, n=0; n<9; y=(x+1)*2, x=y, n++);
-        cout<<"µÚÒ»Ìì¹²ÕªµÄÌÒ×ÓÊıÁ¿Îª "<<x<<endl;
+        cout<<"ç¬¬ä¸€å¤©å…±æ‘˜çš„æ¡ƒå­æ•°é‡ä¸º "<<x<<endl;
     return 0;
 }
