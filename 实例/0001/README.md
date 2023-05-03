@@ -30,8 +30,6 @@ void main ()
     cout << "char: " << myLetter << "\n";
     cout << "bool: " << myBoolean << "\n";
     cout << "string: " << myString << "\n";
-    
-    return 0;
 }
 ```
 
