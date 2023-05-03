@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void main()
+void main()    //三个数判断大小
 {
 	int x, y, z, t=0;
 	cout << "输入三个数" << endl;
@@ -10,19 +10,19 @@ void main()
 	cin >> z;
 
 	if (x > y)
-	{
+	{    /*交换x,y的值*/
 		t = x;
 		x = y;
 		y = t;
 	}
 	if (x > z)
-	{
+	{    /*交换x,z的值*/
 		t = x;
 		x = z;
 		z = t;
 	}
 	if (y > z)
-	{
+	{    /*交换z,y的值*/
 		t = y;
 		y = z;
 		z = t;
