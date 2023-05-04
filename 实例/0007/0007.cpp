@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
-
-void main()
+void main()    //求水仙花数
 {
-	int x=0, y=0, z=0, i=0;
+	int x=0, y=0, z=0, i=0;    //定义
 	for (i = 100; i < 1000; i++)
 	{
 		x = i % 10;
