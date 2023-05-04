@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void main()
+void main()    //九九乘法表
 {
 	int x, y, result;
 	for (x = 1; x < 10; x++)
