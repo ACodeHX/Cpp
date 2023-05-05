@@ -1,7 +1,5 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
-
 void main()
 {
 	char c;
