@@ -16,5 +16,5 @@ void main()    //输入一行字符串，统计出其中英文字母、空格、
 		else
 			others++;
 	}
-	cout << letters << spaces <<digits<< others << endl;
+	cout << "字母:" << letters << "数字:" << spaces << "空格:" <<digits<< "其他:" << others << endl;
 }
