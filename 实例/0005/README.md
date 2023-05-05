@@ -7,7 +7,7 @@
 null
 
 ### code
-```
+```cpp
 #include <iostream>
 using namespace std;
 
