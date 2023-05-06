@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 
@@ -7,11 +6,11 @@ void main()
     float h, s;
     int i = 0;
     h = s = 100;
-    h = h / 2; //µÚÒ»´Î·´µ¯¸ß¶È
+    h = h / 2; //ç¬¬ä¸€æ¬¡åå¼¹é«˜åº¦
     for (i = 2; i <= 10; i++)
     {
         s = s + 2 * h;
         h = h / 2;
     }
-    printf("µÚ10´ÎÂäµØÊ±£¬¹²¾­¹ı%fÃ×£¬µÚ10´Î·´µ¯¸ß%fÃ×\n", s, h);
+    printf("ç¬¬10æ¬¡è½åœ°æ—¶ï¼Œå…±ç»è¿‡%fç±³ï¼Œç¬¬10æ¬¡åå¼¹é«˜%fç±³\n", s, h);
 }
