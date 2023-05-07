@@ -13,7 +13,7 @@ int fact(int j)
     }
     return sum;
 }
-void main()    //利用递归求阶乘
+void main()    //脌没脫脙碌脻鹿茅脟贸陆脳鲁脣
 {
     int i;
     int fact(int);
