@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-
-void main()
+void main()    //自由落体
 {
     float h, s;
     int i = 0;
