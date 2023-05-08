@@ -7,7 +7,7 @@
 null
 
 ### code
-```
+```cpp
 #include <iostream>
 using namespace std;
 int fact(int j)    //利用递归求阶乘
