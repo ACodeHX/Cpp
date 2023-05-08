@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int fact(int j)
+int fact(int j)    //利用递归求阶乘
 {
     int sum;
     if (j == 0) {
@@ -11,7 +11,7 @@ int fact(int j)
     }
     return sum;
 }
-void main()    //ÀûÓÃµÝ¹éÇó½×³Ë
+void main()
 {
     int i;
     int fact(int);
