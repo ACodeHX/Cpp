@@ -1,8 +1,6 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
-
-void hello_world(void)    //Á·Ï°µ÷ÓÃ
+void hello_world(void)    //ç»ƒä¹ è°ƒç”¨
 {
     printf("Hello, world!\n");
 }
@@ -10,9 +8,9 @@ void three_hellos(void)
 {
     int counter;
     for (counter = 1; counter <= 3; counter++)
-        hello_world();/*µ÷ÓÃ´Ëº¯Êý*/
+        hello_world();/*è°ƒç”¨æ­¤å‡½æ•°*/
 }
 int main(void)
 {
-    three_hellos();/*µ÷ÓÃ´Ëº¯Êý*/
+    three_hellos();/*è°ƒç”¨æ­¤å‡½æ•°*/
 }
