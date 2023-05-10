@@ -7,7 +7,7 @@
 null
 
 ### code
-```
+```cpp
 #include <iostream>
 using namespace std;
 void hello_world(void)    //练习调用
