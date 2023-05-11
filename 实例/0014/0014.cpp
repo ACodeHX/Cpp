@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 
@@ -7,7 +6,7 @@ using namespace std;
 int main()
 {
     int i, j, a[N], temp;
-    cout << "ÊäÈëÊ®¸öÊý:" << endl;
+    cout << "è¯·è¾“å…¥ 10 ä¸ªæ•°å­—:" << endl;
     for (i = 0; i < N; i++)
         cin >> a[i];
     for (i = 0; i < N - 1; i++)
@@ -25,7 +24,7 @@ int main()
             a[i] = temp;
         }
     }
-    cout << "ÅÅÐòµÄ½á¹û:" << endl;
+    cout << "æŽ’åºç»“æžœæ˜¯:" << endl;
     for (i = 0; i < N; i++)
         cout << a[i] << " ";
     cout << endl;
