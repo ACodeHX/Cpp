@@ -1,5 +1,5 @@
 ### table
-<details open=`true`>
+<details>
   <summary>1~10</summary>
   
 [0001](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0001)<br>
@@ -15,7 +15,7 @@
  
   </details>
   
-  <details open='true'>
+  <details>
     <summary>11~20</summary>
   
 [0011](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0011)<br>
