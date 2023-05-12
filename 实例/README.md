@@ -1,4 +1,7 @@
 ### table
+<details open=`true`>
+  <summary>project</summary>
+  
 [0001](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0001)<br>
 [0002](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0002)<br>
 [0003](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0003)<br>
