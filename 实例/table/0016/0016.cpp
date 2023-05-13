@@ -1,4 +1,3 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 
@@ -13,7 +12,7 @@ void main()
 			for (i = 0; i < 3; i++)
 			{
 				auto num = 1;
-				cout << "ÄÚÖÃ";
+				cout << "Ã„ÃšÃ–Ãƒ";
 				num++;
 					cout << num<<endl;
 			}
