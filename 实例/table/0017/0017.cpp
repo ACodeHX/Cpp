@@ -1,9 +1,8 @@
-// Note:Your choice is C++ IDE
 #include <iostream>
 using namespace std;
 
 int a, b, c;
-void add()    //Ñ§Ï°Ê¹ÓÃÈçºÎµ÷ÓÃÍâ²¿º¯Êý
+void add()    //å­¦ä¹ ä½¿ç”¨å¦‚ä½•è°ƒç”¨å¤–éƒ¨å‡½æ•°
 {
     int a;
     a = 3;
@@ -13,5 +12,5 @@ void main()
 {
     a = b = 4;
     add();
-    cout <<"cµÄÖµ:" << c << endl;
+    cout <<"cçš„å€¼:" << c << endl;
 }
