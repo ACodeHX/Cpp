@@ -24,3 +24,5 @@
 [0014](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0014)<br>
 [0015](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0015)<br>
 [0016](https://github.com/ACodeHX/Cpp/tree/main/%E5%AE%9E%E4%BE%8B/table/0016)<br>
+[0017](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0017)<br>
+[0018](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0018/)<br>  
