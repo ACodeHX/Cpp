@@ -14,7 +14,7 @@ void main()
 {
 	int num=0, ge = 0, shi = 0, bai = 0, qian = 0;
 	cout<<""<<endl;
-	for (num = 0; num <= 9999; num++)
+	for (num = 0; num <= 3000; num++)
 	{
 		ge = num % 10;    //求个位数
 		shi = num / 10 % 10;    //求十位数
