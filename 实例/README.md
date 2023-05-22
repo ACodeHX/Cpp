@@ -27,3 +27,5 @@
 [0017](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0017)<br>
 [0018](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0018)<br>
 [0019](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0019)<br>
+[0020](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0020)<br>
+</details>
