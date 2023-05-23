@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <sstream>
-using namespace std;
+using namespace std;    //读取数字和
 int main()
 {
 	string input;
