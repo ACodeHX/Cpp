@@ -1,33 +1,33 @@
 #include <iostream>
 using namespace std;
 
-class Beasie {    //½¨Á¢BeasieÀà
-public:    //¹«ÓĞ³ÉÔ±
+class Beasie {    //å»ºç«‹Beasieç±»
+public:    //å…¬æœ‰æˆå‘˜
     string cat;
     string Dog;
     string beashie;
 
     int lion;
 
-    //³ÉÔ±º¯ÊıÉùÃ÷
+    //æˆå‘˜å‡½æ•°å£°æ˜
     string get(void);
     string getDog(void);
     int getlion(void);
 
-private:    /*Ë½ÓĞ³ÉÔ±,Ë½ÓĞ³ÉÔ±±äÁ¿ºÍº¯ÊıÔÚÀàµÄÍâ²¿ÊÇ²»¿ÉÒÔ·ÃÎÊµÄ,ÉõÖÁ²»¿É²é¿´*/
-    int Lion;    /*Ö»ÓĞÀàºÍÓÑÔªº¯Êı²Å¿ÉÒÔ·ÃÎÊË½ÓĞ³ÉÔ±*/
+private:    /*ç§æœ‰æˆå‘˜,ç§æœ‰æˆå‘˜å˜é‡å’Œå‡½æ•°åœ¨ç±»çš„å¤–éƒ¨æ˜¯ä¸å¯ä»¥è®¿é—®çš„,ç”šè‡³ä¸å¯æŸ¥çœ‹*/
+    int Lion;    /*åªæœ‰ç±»å’Œå‹å…ƒå‡½æ•°æ‰å¯ä»¥è®¿é—®ç§æœ‰æˆå‘˜*/
 
-protected:    /*±£»¤³ÉÔ±,»ù±¾ºÍË½ÓĞ³ÉÔ±ÏàËÆ,µ«ÓĞÒ»µã²»Í¬,protected£¨ÊÜ±£»¤£©³ÉÔ±ÔÚÅÉÉúÀà£¨¼´×ÓÀà£©ÖĞÊÇ¿É·ÃÎÊµÄ*/
+protected:    /*ä¿æŠ¤æˆå‘˜,åŸºæœ¬å’Œç§æœ‰æˆå‘˜ç›¸ä¼¼,ä½†æœ‰ä¸€ç‚¹ä¸åŒ,protectedï¼ˆå—ä¿æŠ¤ï¼‰æˆå‘˜åœ¨æ´¾ç”Ÿç±»ï¼ˆå³å­ç±»ï¼‰ä¸­æ˜¯å¯è®¿é—®çš„*/
     int tiger;
 };
 
-class Beast :public Beasie {    //BeastÊÇBeasieµÄ×ÓÀà
+class Beast :public Beasie {    //Beastæ˜¯Beasieçš„å­ç±»
 public:
     void setBeast(int tig);
     int getBeast(void);
 };
 
-string Beasie::get(void) {    //³ÉÔ±º¯ÊıµÄ¶¨Òå
+string Beasie::get(void) {    //æˆå‘˜å‡½æ•°çš„å®šä¹‰
     return cat = "cat";
 }
 
@@ -40,16 +40,16 @@ int Beasie::getlion(void) {
     return lion;
 }
 
-void Beast::setBeast(int tig) {    //×ÓÀàµÄ³ÉÔ±º¯Êı
+void Beast::setBeast(int tig) {    //å­ç±»çš„æˆå‘˜å‡½æ•°
     tiger = tig;
 }
 
-int Beast::getBeast() {    //×ÓÀàµÄ³ÉÔ±º¯Êı
+int Beast::getBeast() {    //å­ç±»çš„æˆå‘˜å‡½æ•°
     tiger = 0;
     return tiger;
 }
 
-int main()    //³ÌĞòµÄÖ÷º¯Êı
+int main()    //ç¨‹åºçš„ä¸»å‡½æ•°
 {
     Beasie cat, dog, tiger;
     Beast beast;
