@@ -64,10 +64,10 @@ int main()
 {
 	Time t1(0,23,59),t2(3,4,59);
 
-	++t1;
+	++t1;    //前缀运算符
 	t1.seeTime();
 
-	t2++;
+	t2++;    //后缀运算符
 	t2.seeTime();
 
 	return 0;
