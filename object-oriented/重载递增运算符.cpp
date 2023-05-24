@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 using namespace std;
-class Time
+class Time    //重载递增运算符
 {
 private:
 	int huor;
