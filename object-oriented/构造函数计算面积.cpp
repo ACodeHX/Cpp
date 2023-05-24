@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-class Area
+class Area    //练习构造函数
 {
 private:
     int length;
