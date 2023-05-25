@@ -13,7 +13,7 @@ using namespace std;    //欧拉计划,斐波那契数列中不超过四百万�
 int main()
 {
 	long long a = 1, b = 2, temp=0,sum=0;
-	while (b <= 4e7)
+	while (b <= 4e7)    //4e7科学计数法
 	{
 		if (a % 2 == 0)
 		{
