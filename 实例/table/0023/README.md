@@ -12,7 +12,7 @@
 using namespace std;    //欧拉计划,斐波那契数列中不超过四百万的项，求其中为偶数的项之和
 int main()
 {
-	long long a = 1, b = 2, temp=0,sum=0;
+	long long a = 1L, b = 2L, temp=0L,sum=0L;
 	while (b <= 4e7)    //4e7科学计数法
 	{
 		if (a % 2 == 0)
