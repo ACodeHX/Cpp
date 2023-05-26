@@ -36,5 +36,6 @@
   [0021](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0021)<br>
   [0022](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0022)<br>
   [0023](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0023)<br>
+  [0024](https://github.com/ACodeHX/Cpp/blob/main/%E5%AE%9E%E4%BE%8B/table/0024)<br>
   
   </details>
