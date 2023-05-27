@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-using namespace std;
+using namespace std;    //反转数字
 
 int main()
 {
