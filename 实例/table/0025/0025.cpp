@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-using namespace std;
+using namespace std;    //打印杨辉三角
 int main()
 {
     int i, j;
