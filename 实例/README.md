@@ -47,7 +47,6 @@
   </details>
   
   <details>
-  <summary>31~40<summary>
-    
+  <summary>31~40</summary>
   
-  <details>
+</details>
