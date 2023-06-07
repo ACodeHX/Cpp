@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 long long multiple(int start, int end) {
-    long long number = end;
+    long long number = end;    //从最大的数开始,因为它一定能被包含在内的数整除
 
     while (true) {
         bool isDivisible = true;
@@ -16,7 +16,7 @@ long long multiple(int start, int end) {
             return number;
         }
 
-        number += end;
+        number += end;    //逐步增加以end为步长,因为最小的数一定是end的倍数
     }
 }
 
